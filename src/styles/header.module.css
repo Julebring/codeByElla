@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+
+.wrapper{
+    
+    background-image: url('../img/keyboard-narrow.jpg');
+    height: 40vh;
+	width: 100%;
+	position: absolute;
+	top: 0;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.menuContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    position: absolute; 
+    bottom: 0;
+    margin-bottom: 10px;
+}
+.menuItem{
+    text-decoration: none;
+    color: rgb(226, 198, 115);
+    margin-left:20px;
+    margin-right: 20px;
+    align-self: flex-end;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+

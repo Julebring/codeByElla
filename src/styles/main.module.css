@@ -1,0 +1,7 @@
+.wrapper{
+    width: 100%;
+    margin-top: 45vh; /* OBS: headerns höjd plus 5vh*/
+    height: auto;
+    height: 500px; /* ta bort när sidorna fylls */
+}
+
